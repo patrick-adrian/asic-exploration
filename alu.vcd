@@ -1,0 +1,73 @@
+$date
+	Sat Oct 04 13:54:48 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_alu $end
+$var wire 8 ! result [7:0] $end
+$var reg 8 " a [7:0] $end
+$var reg 8 # b [7:0] $end
+$var reg 3 $ op [2:0] $end
+$scope module uut $end
+$var wire 8 % a [7:0] $end
+$var wire 8 & b [7:0] $end
+$var wire 3 ' op [2:0] $end
+$var reg 8 ( result [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1101 (
+b0 '
+b11 &
+b1010 %
+b0 $
+b11 #
+b1010 "
+b1101 !
+$end
+#10000
+b111 !
+b111 (
+b1 $
+b1 '
+#20000
+b10 !
+b10 (
+b10 $
+b10 '
+#30000
+b1011 !
+b1011 (
+b11 $
+b11 '
+#40000
+b1001 !
+b1001 (
+b100 $
+b100 '
+#50000
+b10100 !
+b10100 (
+b101 $
+b101 '
+#60000
+b101 !
+b101 (
+b110 $
+b110 '
+b1111 #
+b1111 &
+#70000
+b11110101 !
+b11110101 (
+b111 $
+b111 '
+b11 #
+b11 &
+#100000
